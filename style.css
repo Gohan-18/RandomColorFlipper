@@ -79,8 +79,8 @@ header h4 {
 }
 
 header h4:hover {
-    color: #ff004f;
-    border: 3px solid #ff004f;;
+    color:  #fc4848;
+    border: 3px solid  #fc4848;
 }
 
 /*
@@ -108,7 +108,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #ff004f;
+    background:  #fc4848;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -147,7 +147,7 @@ main  {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: bold;
     border: 3px solid #192131;
     background: none;
     border-radius: 8px;
@@ -156,6 +156,10 @@ main  {
     transition: 0.5s;
 }
 
+.btn:hover {
+    color: #fc4848;
+    border: 3px solid #fc4848;
+}
 
 /* For bigger displays */
 
